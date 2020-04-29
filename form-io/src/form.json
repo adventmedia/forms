@@ -1,0 +1,259 @@
+{
+  "_id": "5ea2fca74c22c237a83430ab",
+  "type": "form",
+  "tags": [],
+  "owner": "5ea1eef108f03c058ff58006",
+  "components": [
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "inputType": "number",
+      "label": "What is your current weight?",
+      "key": "whatisyourcurrentweight",
+      "placeholder": "",
+      "prefix": "",
+      "suffix": "kg",
+      "defaultValue": "",
+      "protected": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": false,
+        "min": "",
+        "max": "",
+        "step": "any",
+        "integer": "",
+        "multiple": "",
+        "custom": ""
+      },
+      "type": "number",
+      "labelPosition": "left-right",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "labelWidth": 30,
+      "labelMargin": 3
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "inputType": "number",
+      "label": "What is your height?",
+      "key": "whatisyourheight",
+      "placeholder": "",
+      "prefix": "",
+      "suffix": "cm",
+      "defaultValue": "",
+      "protected": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": false,
+        "min": "",
+        "max": "",
+        "step": "any",
+        "integer": "",
+        "multiple": "",
+        "custom": ""
+      },
+      "type": "number",
+      "labelPosition": "left-right",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "labelWidth": 30,
+      "labelMargin": 3
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "inputType": "number",
+      "label": "What is your current body temperature?",
+      "key": "whatisyourcurrentbodytemperature",
+      "placeholder": "",
+      "prefix": "",
+      "suffix": "°C",
+      "defaultValue": "",
+      "protected": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": false,
+        "min": "",
+        "max": "",
+        "step": "any",
+        "integer": "",
+        "multiple": "",
+        "custom": ""
+      },
+      "type": "number",
+      "labelPosition": "left-right",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "labelWidth": 30,
+      "labelMargin": 3
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "label": "Are you experiencing any of the following symptoms (check all that apply)?",
+      "key": "symptoms",
+      "values": [
+        {
+          "value": "headache",
+          "label": "Headache",
+          "shortcut": ""
+        },
+        {
+          "value": "insomnia",
+          "label": "Insomnia",
+          "shortcut": ""
+        },
+        {
+          "value": "jointPain",
+          "label": "Joint Pain",
+          "shortcut": ""
+        },
+        {
+          "value": "jointStiffness",
+          "label": "Joint Stiffness",
+          "shortcut": ""
+        },
+        {
+          "value": "musclePain",
+          "label": "Muscle Pain",
+          "shortcut": ""
+        },
+        {
+          "value": "nausea",
+          "label": "Nausea",
+          "shortcut": ""
+        },
+        {
+          "value": "numbness",
+          "label": "Numbness",
+          "shortcut": ""
+        },
+        {
+          "value": "shortnessOfPants",
+          "label": "Shortness of Pants",
+          "shortcut": ""
+        },
+        {
+          "value": "activeCancer",
+          "label": "Active Cancer",
+          "shortcut": ""
+        },
+        {
+          "value": "asthma",
+          "label": "Asthma",
+          "shortcut": ""
+        },
+        {
+          "value": "copd",
+          "label": "COPD",
+          "shortcut": ""
+        },
+        {
+          "value": "depression",
+          "label": "Depression",
+          "shortcut": ""
+        },
+        {
+          "value": "diabetes",
+          "label": "Diabetes",
+          "shortcut": ""
+        },
+        {
+          "value": "heartDisease",
+          "label": "Heart Disease",
+          "shortcut": ""
+        },
+        {
+          "value": "historyOfStroke",
+          "label": "History of Stroke",
+          "shortcut": ""
+        }
+      ],
+      "inline": false,
+      "protected": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": false
+      },
+      "type": "selectboxes",
+      "labelPosition": "top",
+      "optionsLabelPosition": "right",
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "labelWidth": 30,
+      "labelMargin": 3,
+      "lockKey": true
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "label": "Submit",
+      "tableView": false,
+      "key": "submit",
+      "size": "md",
+      "leftIcon": "",
+      "rightIcon": "",
+      "block": false,
+      "action": "submit",
+      "disableOnInvalid": false,
+      "theme": "primary",
+      "type": "button"
+    }
+  ],
+  "controller": "",
+  "revisions": "",
+  "_vid": 0,
+  "title": "Health Status",
+  "display": "form",
+  "access": [
+    {
+      "roles": [
+        "5ea2f8183e1564131cc15262",
+        "5ea2f8183e15641ff0c15263",
+        "5ea2f8183e156419c5c15264"
+      ],
+      "type": "read_all"
+    }
+  ],
+  "submissionAccess": [],
+  "settings": {},
+  "properties": {},
+  "name": "healthStatus",
+  "path": "healthstatus",
+  "project": "5ea2f8183e1564b637c15261",
+  "created": "2020-04-24T14:50:15.803Z",
+  "modified": "2020-04-24T17:47:57.449Z",
+  "machineName": "sjmdhdlidptuwxm:healthStatus"
+}

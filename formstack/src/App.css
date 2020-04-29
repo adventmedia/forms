@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.formHolder {
+  display: block;
+  margin: 0 auto;
+}
+.getData {
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+a.page-link {
+  cursor: pointer;
+}
+a.page-link.disabled {
+  cursor: inherit;
+}
+
+a.page-link.disabled:hover {
+  background-color: inherit;
+}
